@@ -192,7 +192,7 @@
   overflow: visible;
   border: 9px solid transparent;
   background-clip: content-box;
-  border-image: url(@pdfjsImagePath/shadow.png) 9 9 repeat;
+  border-image: url(images/shadow.png) 9 9 repeat;
   background-color: white
 }
 
@@ -533,40 +533,6 @@ html[dir='rtl'] .pdfjs #toolbarContainer, .pdfjs .findbar, .pdfjs .secondaryTool
   transition: width 200ms
 }
 
-@-webkit-keyframes progressIndeterminate {
-
-.pdfjs
-
-0
-%
-{
-  left: -142px
-}
-.pdfjs
-
-100
-%
-{
-  left: 0
-}
-}
-@keyframes progressIndeterminate {
-
-.pdfjs
-
-0
-%
-{
-  left: -142px
-}
-.pdfjs
-
-100
-%
-{
-  left: 0
-}
-}
 .pdfjs #loadingBar .progress.indeterminate {
   background-color: #999;
   -webkit-transition: none;
