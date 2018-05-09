@@ -1,6 +1,10 @@
 {
   "name": "pdf.js-viewer",
-  "main": "pdf.js",
+  "main": [
+    "pdf.js",
+    "viewer.css",
+    "viewer-overwrites.css"
+  ],
   "homepage": "http://github.com/legalthings/pdf.js-viewer",
   "authors": [
     "LegalThings <info@legalthings.net>",
