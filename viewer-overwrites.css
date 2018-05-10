@@ -6,6 +6,11 @@ html {
     font-size: 10px
 }
 
+body {
+
+    background-image: none;
+}
+
 .pdfjs #viewerContainer {
 
     background: #404040 url(images/texture.png);
